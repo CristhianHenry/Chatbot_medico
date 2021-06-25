@@ -1,0 +1,49 @@
+{"contenido":[
+	{"tag":"saludo",
+		"patrones":["Hola","te saludo", "que tal","hello","ola"],
+		"respuestas":["Hola que tal!","Hola","Un gusto de verte"]
+	},
+	{"tag":"despedida", 
+		"patrones":["adios","hasta luego","nos vemos","cuidate","bye"],
+		"respuestas":["Adiós Encantado de hablar contigo","cuidate","adiós gracias por usar nuestro servicio"]
+	},
+	{"tag":"nombre",
+		"patrones":["como te llamas", "cual es tu nombre", "con quien hablo", "como es tu nombre","quien eres"],
+		"respuestas":["Soy un bot medico","Me llamo botme","Botme es mi nombre","soy un chatbot llamdo Botme"]
+	},
+	{"tag":"estado",
+		"patrones":["como estas","que haces","a que te dedicas", "que estas haciendo","que eres","que sabes hacer"],
+		"respuestas":["soy un bot, estoy esperando una pregunta","soy un chatbot medico y trato de dar una respuesta"]
+	},
+	{"tag":"restado",
+		"patrones":["me siento enfermo","estoy mal"],
+		"respuestas":["está bien puedes decirme que esta mal ¿cuáles son tus síntomas?"]
+	},
+	{"tag":"rcabeza",
+		"patrones":["me duele la cabeza","siento dolor de cabeza","tengo una jaqueca","cabesa"],
+		"respuestas":["qué tipo de dolor de cabeza tiene : 1 Dolor de cabeza migrañoso: dolor punzante intenso en un solo lado de la cabeza. 2 Dolores de cabeza en racimo - dolores de cabeza severos y recurrentes 3 Dolor de cabeza por tensión - Ocasional"]
+	},
+	{"tag":"rIecabeza",
+		"patrones":["tengo un dolor de cabeza migrañoso","migrañoso","migraña"],
+		"respuestas":[" síntoma observado. Las migrañas tienden a ser recurrentes y cada ataque puede durar hasta 3 días"]
+	},
+	{"tag":"rIIecabeza",
+		"patrones":["tengo un dolor de cabeza en racimo","racimo","por racimo","rasimo"],
+		"respuestas":["síntoma observado. Los ataques tienden a ocurrir en grupos diarios que pueden persistir durante semanas o meses. Por lo general, tienen lugar a la misma hora del día, que a menudo puede ser un par de horas después de quedarse dormido por la noche"]
+	},
+	{"tag":"rIIIecabeza",
+		"patrones":["tengo dolor de cabeza por tensión","tension","por tension","tencion"],
+		"respuestas":[" síntoma observado. La causa de los dolores de cabeza tensionales no está clara, pero el estrés, la ansiedad y la depresión son desencadenantes comunes."]
+	},
+	
+	{"tag":"rnegativas",
+		"patrones":["sabes multiplicar dividir sumar o restar","sabes hacer operaciones matematicas","sabes que hora es", "como esta el clima","tienes vida","tienes sentimientos","cuantos años tienes","quien es tu creador","quien te diseño"],
+		"respuestas":["no lo se"]
+	},
+	{"tag":"rafirmativas",
+		"patrones":["eres un chatbot","eres un robot","eres un bot"],
+		"respuestas":["soy parecido a ello"]
+	}
+
+    ]
+}
